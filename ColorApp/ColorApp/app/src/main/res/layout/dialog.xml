@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white">
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/rowCountTextView_Legend"
+            android:text="@string/changeRowCount"
+            android:textSize="25sp"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center"
+            android:layout_margin="10dp"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/rowCountTextView"
+            android:background="@color/black"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center"
+            android:layout_margin="10dp"/>
+    </TableRow>
+
+    <SeekBar
+        android:id="@+id/seekBarSV"
+        android:max="256"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"/>
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/centralHue_Legend"
+            android:text="@string/changeCentralHue"
+            android:textSize="25sp"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center"
+            android:layout_margin="10dp"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/hueTextView"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center"
+            android:layout_margin="10dp"/>
+    </TableRow>
+
+    <SeekBar
+        android:id="@+id/seekBarHue"
+        android:max="256"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"/>
+</LinearLayout>

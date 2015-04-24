@@ -1,0 +1,27 @@
+<resources>
+    <!-- Default strings -->
+    <string name="app_name">BenjaminClarkFinalProject</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- General strings used by the app UI -->
+    <string name="clearDirections">--- Reset by Turning ---</string>
+    <string name="rowCount">Number of Rows: </string>
+    <string name="changeRowCount">Change row count</string>
+    <string name="changeCentralHue">Change central hue</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm">Confirm</string>
+    <string name="rowsPrefix">Rows:</string>
+    <string name="sortingOrder">Configure sorting order</string>
+    <string name="sortingOrderDialogText">Set the sorting order</string>
+    <string name="orderTextPrefix">Sorting order:</string>
+    <string name="configureColorSwatches">Configure color swatches</string>
+
+    <!-- HSV Strings -->
+    <string name="hsv">Hue, Saturation, Value</string>
+    <string name="hvs">Hue, Value, Saturation</string>
+    <string name="shv">Saturation, Hue, Value</string>
+    <string name="svh">Saturation, Value, Hue</string>
+    <string name="vhs">Value, Hue, Saturation</string>
+    <string name="vsh">Value, Saturation, Hue</string>
+</resources>
